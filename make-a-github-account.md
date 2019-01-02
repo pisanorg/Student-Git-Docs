@@ -71,6 +71,10 @@ GitHub partners with many other companies to provide a "student pack",
 of free trials and discounts for students.
 
 GitHub gives students access to unlimited private repos at no cost.
+While you do not need these for assignments using GitHub Classroom, it's nice
+to have for personal projects or other assignments.
+
+**Unless you have permission, never post your homework solutions in a public repo.**
 
 1. First, navigate to [education.github.com/pack](https://education.github.com/pack).
 
