@@ -70,6 +70,8 @@ is having access to student perks.
 GitHub partners with many other companies to provide a "student pack",
 of free trials and discounts for students.
 
+GitHub gives students access to unlimited private repos at no cost.
+
 1. First, navigate to [education.github.com/pack](https://education.github.com/pack).
 
 2. Click _"Get your Pack"_, and _"Yes, I'm a student"_ (because you are).
@@ -80,3 +82,4 @@ TODO we need to write those docs for professors too aarggh
 
 3. Fill out this form. You'll definitely want to use your UW-issued e-mail address.
 
+You should eventually hear back from GitHub support.
