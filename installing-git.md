@@ -55,7 +55,7 @@ would be to search the web for the error message.
 ![Verifying the installation.](img/install-git-windows-4.png)
 
 14. Verify that the installation finished without errors by typing `git` and pressing Enter.
-You should see the help command.
+You should see the help text.
 
 If you see the text `'git' is not recognized as an internal or external command,
 operable program or batch file.`, it means that something didn't work properly.
@@ -80,10 +80,39 @@ then it will try to install it for you. https://git-scm.com/book/en/v2/Getting-S
 For Ubuntu/Linux Mint/Debian-based systems, you can simply install `git` using your
 package manager. You may need to run with `sudo`.
 
-**This will not work on the lab machines!**
+**This will not work on the lab machines! They should already have git installed.**
 
 ```console
 sudo apt install git
 ```
 
 [For other distributions, refer to the Git documentation.](https://git-scm.com/download/linux)
+
+## GUI Clients
+
+[The official Git documentation has a fairly complete list of git GUI clients.](https://git-scm.com/downloads/guis/)
+
+Here are some of our recommendations:
+
+### [GitHub Desktop](https://desktop.github.com/)
+
+[GitHub Desktop is a easy to use client for Windows and Mac.](https://desktop.github.com/) It integrates well with Git repos, 
+even if they aren't hosted on GitHub. It's also open source.
+
+![GitHub Desktop image](img/github-desktop-example.png)
+
+### [JetBrains IDE Integration for IntelliJ, Clion, PyCharm, WebStorm, etc.](https://www.jetbrains.com/help/idea/using-git-integration.html)
+
+[The JetBrains IDEs have great support for Git with their plugins.](https://www.jetbrains.com/help/idea/using-git-integration.html)
+These IDEs are great, and all of them are free to use for students.
+
+![Jetbrains git plugin](img/jetbrains-integration-example.png)
+
+### [Visual Studio Git Integration](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Visual-Studio)
+
+[Visual Studio has a pretty solid Git integration.](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Visual-Studio)
+Some of the steps and workflow don't directly map to the actions taken in Git,
+and you may still need to use the command line for some tasks, but otherwise
+it works pretty well.
+
+![VS Git Plugin](img/visualstudio-integration-example.png)
