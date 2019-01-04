@@ -22,6 +22,7 @@ TODO work on these if we have time
 - .gitignore
 - GitHub Issues
 - GitHub Pull Requests
+- forking, how to contribute to these docs
 
 ## Additional Resources
 
