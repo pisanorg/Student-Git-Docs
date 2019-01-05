@@ -14,7 +14,7 @@ Tons of individuals and organizations use Git.
 
 - Amazon, Microsoft, Facebok, Netflix, Linux, Android, Eclipse, Starbucks, Google...
 - Over 31 million users on GitHub (note: Git != GitHub)
-- Your classmates
+- Your classmates!
 
 ## Why use Git?
 
@@ -24,18 +24,24 @@ As with any version control system, git offers some nice features:
     - Works across workstations, like your laptop and desktop
     - Works across teams, each member can get the latest changes
 
-- Backs up your source code
+- Backs up your source code.
 
     Because your files can be backed up to GitHub or some other host, you have much less risk of losing
     your files due to hardware failures.
 
-- Enables for distributed collaboration
+- Enables for distributed collaboration.
 
     Multiple team members can work remotely on the same set of files, no matter their location.
 
-- Manage complex workflows
+- Manage complex workflows.
 
     Git enables teams of any size to contribute to projects, all at the same time.
+
+- Tracks your revision history.
+
+    You can rollback changes to any state at any time.
+    This is great for working on features or breaking changes, while
+    maintaining a stable copy of the project at the same time.
 
 ## What isn't Git?
 
