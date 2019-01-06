@@ -12,7 +12,7 @@
 
 This guide will walk you through how to submit each of your assignments.
 
-**NOTE** Pushing any new commits after the submission deadline is allowed, but will show up as a late submission and suffer any late penalties specifcied by the instructor's syllabus.
+**NOTE** Pushing any new commits after the submission deadline is allowed, but will show up as a late submission and suffer any late penalties specified by the instructor's syllabus.
 
 ## Preparing your repository
 
