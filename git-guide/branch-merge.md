@@ -15,7 +15,7 @@ You can verify that you have created and switched to the new branch by running `
 To switch to an existing branch that's different from your current branch, run the following command:
 
 ```
-  git checkout [BRANCH_NAME_TO_SWITCH_TO_GOES_HERE]
+  git checkout BRANCH_NAME_TO_SWITCH_TO_GOES_HERE
 ```
 
 **NOTE** If you have uncommitted changes, those changes will be carried over into the branch you switch to.
@@ -25,7 +25,7 @@ To switch to an existing branch that's different from your current branch, run t
 After setting the remote URL, you can push your current branch (if you have write-access to the GitHub repository you're hoping to push to) to GitHub by running:
 
 ```
-  git push origin -u [BRANCH_NAME_GOES_HERE]
+  git push origin -u BRANCH_NAME_GOES_HERE
 ```
 
 You can verify if this command worked by navigating to your repository's webpage. You should see your branch listed in the branch list.
@@ -35,7 +35,7 @@ You can verify if this command worked by navigating to your repository's webpage
 In order to merge branches simply run the following command:
 
 ```
-  git merge [BRANCH_NAME_TO_MERGE_WITH_GOES_HERE]
+  git merge BRANCH_NAME_TO_MERGE_WITH_GOES_HERE
 ```
 
 This will merge the branch specified into the current branch.

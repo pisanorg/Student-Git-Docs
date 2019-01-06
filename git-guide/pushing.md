@@ -23,7 +23,7 @@ To verify that the command worked, run `git remote -v`. In the above example, it
 After setting the remote URL, you can push your current branch (if you have write-access to the GitHub repository you're hoping to push to) to GitHub by running:
 
 ```
-  git push origin -u [BRANCH_NAME_GOES_HERE]
+  git push origin -u BRANCH_NAME_GOES_HERE
 ```
 
 You can verify if this command worked by navigating to your repository's webpage. You should see your branch listed in the branch list.
