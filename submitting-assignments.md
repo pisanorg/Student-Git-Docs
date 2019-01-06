@@ -2,11 +2,11 @@
 
 This guide will walk you through how to submit each of your assignments.
 
-**NOTE** Pushing any new commits after the submission deadline is not allowed.
+**NOTE** Pushing any new commits after the submission deadline is allowed, but will show up as a late submission and suffer any late penalties specifcied by the instructor's syllabus.
 
 ## Preparing your repository
 
-Your repository should be well documented and be able to compile and run before you submit your assignment. Any commented out and/or uneeded code should be deleted before submission
+Your repository should be well documented and be able to compile and run before you submit your assignment.
 
 ## Submitting your assignment
 
@@ -20,17 +20,19 @@ Make sure all of your changes have been committed and pushed to GitHub. You can 
 
 ![Git Status Example](img/submitting-assignment-step-0.PNG)
 
-### Copy the name of your last commit
+### Copy the hash of your last commit
 
-After you have verified that all of your changes have been pushed, copy the name of the last commit. You can do this by running `git log` and copying the name of the latest commit in the list. For example, if I run `git log`:
+After you have verified that all of your changes have been pushed, copy the hash of the last commit. You can do this by running `git log` and copying the hash of the latest commit in the list. For example, if I run `git log`:
 
 ![Git Log Copy Name Example](img/submitting-assignment-step-1.PNG)
 
 Then I would copy `bada4023008570ed5310aef5e95216f354e2dd80`.
 
+Alternatively, running `git rev-parse HEAD` will also yield the hash of the last commit.
+
 ### Paste the name of your last commit on Canvas
 
-Login to canvas, and navigate to your course's homepage. From there, navigate to the assignment page and click `Submit Assignment`. Then, paste the name of your last commit (which would be `bada4023008570ed5310aef5e95216f354e2dd80`, in my case) into the submission details of your assignment. Then click `Submit`.
+Login to canvas, and navigate to your course's homepage. From there, navigate to the assignment page and click `Submit Assignment`. Then, paste the hash of your last commit (which would be `bada4023008570ed5310aef5e95216f354e2dd80`, in my case) into the submission details of your assignment. Then click `Submit`.
 
 # Submitting Group Assignments
 
