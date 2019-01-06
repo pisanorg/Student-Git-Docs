@@ -41,3 +41,5 @@ In order to merge branches simply run the following command:
 This will merge the branch specified into the current branch.
 
 **NOTE** You might run into merge conflicts if two different commits from the base and merging branch change the same line in the same file. We will not be covering how to deal with merge conflicts in this tutorial.
+
+[Learn more about how to resolve merge conflicts here](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).

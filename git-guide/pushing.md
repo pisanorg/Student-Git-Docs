@@ -23,7 +23,7 @@ To verify that the command worked, run `git remote -v`. In the above example, it
 After setting the remote URL, you can push your current branch (if you have write-access to the GitHub repository you're hoping to push to) to GitHub by running:
 
 ```
-  git push origin -u BRANCH_NAME_GOES_HERE
+  git push origin -u https://github.com/pisanorg/Student-Git-Docs.git
 ```
 
 You can verify if this command worked by navigating to your repository's webpage. You should see your branch listed in the branch list.
@@ -32,4 +32,6 @@ You can verify if this command worked by navigating to your repository's webpage
 
 To pull any changes from the GitHub branch to your local repository simply run `git pull`.
 
-**NOTE** You might run into merge conflicts if you committed changes to your local repository before it's fully synced with the GitHub repository. We will not be covering how to deal with merge conflicts in this tutorial.
+**NOTE** You might run into merge conflicts if you committed changes to your local repository before it's fully synced with the GitHub repository. We will not be covering how to deal with merge conflicts in this tutorial. 
+
+[Learn more about how to resolve merge conflicts here](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
