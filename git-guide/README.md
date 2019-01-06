@@ -35,3 +35,5 @@ Issue or Pull Request.
 
  - [Official Git Documentation](https://git-scm.com/doc)
  - ["Git Gud" Workshop Presentation by UWB-ACM](https://uwb-acm.github.io/Git-Gud-Workshop/)
+ - [Atlassian Intro to Git Guide](https://www.atlassian.com/git/tutorials/what-is-version-control)
+    Note that this guide assumes that you are using BitBucket, and not GitHub.

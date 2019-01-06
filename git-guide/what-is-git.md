@@ -10,7 +10,7 @@ enables teams to work in sync with each other.
 
 Tons of individuals and organizations use Git.
 
-- Amazon, Microsoft, Facebok, Netflix, Linux, Android, Eclipse, Starbucks, Google...
+- Amazon, Microsoft, Facebook, Netflix, Linux, Android, Eclipse, Starbucks, Google...
 - Over 31 million users on GitHub (note: Git != GitHub)
 - Your classmates!
 
@@ -46,7 +46,7 @@ As with any version control system, Git offers some nice features:
 
 ## What isn't Git?
 
-It's important to make a few disctions when describing the features that Git provides.
+It's important to make a few distinctions when describing the features that Git provides.
 
 ### Git is not GitHub/GitLab/BitBucket
 
