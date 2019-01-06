@@ -82,4 +82,23 @@ any indicators for your password, so just hit Enter/Return when you are done.
 
 Then, open the folder `C:\Git` under File Explorer, and your files should be there.
 
-## Creating your own repos
+## Creating your own repos - TODO
+
+If you aren't using GitHub classroom, then you'll want to follow these steps.
+
+### Step 0. Create your `Git` folder.
+
+TODO create a folder under ~/Git or C:\Git
+
+TODO create repo on github with https://github.com/new
+
+TODO use the instructions from github
+
+```
+echo "# ideal-chainsaw" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ThisIsAnotherDemoAccount123/ideal-chainsaw.git
+git push -u origin master
+```
