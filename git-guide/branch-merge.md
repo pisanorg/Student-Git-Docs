@@ -30,6 +30,8 @@ After setting the remote URL, you can push your current branch (if you have writ
 
 You can verify if this command worked by navigating to your repository's webpage. You should see your branch listed in the branch list.
 
+**NOTE** If you want to push new commits to the GitHub repository after you have ran the above command, run `git push`.
+
 ## Merging branches
 
 In order to merge branches simply run the following command:

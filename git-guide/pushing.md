@@ -11,7 +11,7 @@ Then, copy the link. In the above example it would be `https://github.com/pisano
 After you have copied the link, run the following command:
 
 ```
-  git remote set-url origin [PASTE_LINK_HERE]
+  git remote set-url origin https://github.com/pisanorg/Student-Git-Docs.git
 ```
 
 To verify that the command worked, run `git remote -v`. In the above example, it would look something like this
@@ -23,10 +23,12 @@ To verify that the command worked, run `git remote -v`. In the above example, it
 After setting the remote URL, you can push your current branch (if you have write-access to the GitHub repository you're hoping to push to) to GitHub by running:
 
 ```
-  git push -u origin https://github.com/pisanorg/Student-Git-Docs.git
+  git push -u origin BRANCH_NAME_GOES_HERE
 ```
 
 You can verify if this command worked by navigating to your repository's webpage. You should see your branch listed in the branch list.
+
+**NOTE** If you want to push new commits to the GitHub repository after you have ran the above command, run `git push`.
 
 ## Pulling changes from GitHub
 
