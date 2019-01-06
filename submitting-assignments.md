@@ -31,3 +31,16 @@ Then I would copy `bada4023008570ed5310aef5e95216f354e2dd80`.
 ### Paste the name of your last commit on Canvas
 
 Login to canvas, and navigate to your course's homepage. From there, navigate to the assignment page and click `Submit Assignment`. Then, paste the name of your last commit (which would be `bada4023008570ed5310aef5e95216f354e2dd80`, in my case) into the submission details of your assignment. Then click `Submit`.
+
+# Submitting Group Assignments
+
+Submitting group assignments follow the same instructions as the above individual assignments, but be sure to include your group name and everyone's name in the submission details. Example layout:
+
+```
+Latest Commit: bada4023008570ed5310aef5e95216f354e2dd80
+Group Name: The Bears
+Group Members:
+  - Name #1
+  - Name #2
+  - Name #3
+```
