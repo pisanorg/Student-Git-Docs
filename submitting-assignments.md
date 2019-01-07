@@ -1,14 +1,4 @@
-# Submitting Individual Assignments <!-- omit in toc -->
-
-## Table of Contents <!-- omit in toc -->
-
-- [Preparing your repository](#preparing-your-repository)
-- [Submitting your assignment](#submitting-your-assignment)
-- [Walkthrough](#walkthrough)
-  - [Commit all of your changes and push to GitHub](#commit-all-of-your-changes-and-push-to-github)
-  - [Copy the hash of your last commit](#copy-the-hash-of-your-last-commit)
-  - [Paste the name of your last commit on Canvas](#paste-the-name-of-your-last-commit-on-canvas)
-- [Submitting Group Assignments](#submitting-group-assignments)
+# Submitting Individual Assignments
 
 This guide will walk you through how to submit each of your assignments.
 
