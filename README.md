@@ -5,7 +5,7 @@ Please refer back to this guide if you need help, or resources provided by this 
 
 ## List of Topics Covered
 
-TODO
+- [Submitting Assignments](submitting-assignments.md)
 
 ## Additional Resources
 
