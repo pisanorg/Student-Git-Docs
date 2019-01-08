@@ -62,6 +62,11 @@ Now, our repo will look like this:
 
 All of the commits and files from either branch are contained in the `master` branch.
 
+Now, sometimes issues may arise when multiple changes are made to the same set of files.
+This results in merge conflicts, because Git is unable to automatically merge the two files.
+The solution to this is to manually merge the two files together, which can be a time-consuming process.
+[This guide briefly explains how to resolve merge conflicts.](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
+
 ## Checking out a new branch
 
 To create a new branch from your current branch, run the following command:
