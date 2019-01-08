@@ -102,3 +102,34 @@ git commit -m "first commit"
 git remote add origin https://github.com/ThisIsAnotherDemoAccount123/ideal-chainsaw.git
 git push -u origin master
 ```
+
+
+## Setting the remote URL
+
+To set the remote URL, first copy the URL link of the GitHub repository you're tyring to sync to. This can be done by navigating to your repository page on GitHub. Once you're there, click the `Clone or download` button found under the repository details. Example:
+
+![Clone or Download Button](img/pushing-clone-download-button.PNG)
+
+Then, copy the link. In the above example it would be `https://github.com/pisanorg/Student-Git-Docs.git`.
+
+After you have copied the link, run the following command:
+
+```console
+git remote set-url origin https://github.com/pisanorg/Student-Git-Docs.git
+```
+
+To verify that the command worked, run `git remote -v`. In the above example, it would look something like this
+
+![git remote -v example](img/pushing-git-remote-example.PNG)
+
+## Pushing the current branch to GitHub
+
+After setting the remote URL, you can push your current branch (if you have write-access to the GitHub repository you're hoping to push to) to GitHub by running:
+
+```console
+git push -u origin BRANCH_NAME_GOES_HERE
+```
+
+You can verify if this command worked by navigating to your repository's webpage. You should see your branch listed in the branch list.
+
+**NOTE** If you want to push new commits to the GitHub repository after you have ran the above command, run `git push`.
