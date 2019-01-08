@@ -1,4 +1,4 @@
-# Git Guide Walkthough
+# Git Guide Walkthrough
 
 This section contains information about how to use Git, including examples and walkthroughs.
 This assumes that you have Git installed already.

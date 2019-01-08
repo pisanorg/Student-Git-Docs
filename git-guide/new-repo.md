@@ -52,7 +52,7 @@ Copy the link provided in this popup.
 
 Open your terminal application.
 
-Type the follwing to navigate to your home directory: `cd ~`.
+Type the following to navigate to your home directory: `cd ~`.
 
 Then, create a folder called _"Git"_ under this directory: `mkdir Git`.
 This will be used to store all of your Git projects.
