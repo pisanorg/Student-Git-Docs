@@ -10,12 +10,64 @@ commented-out code.
 As long as you don't have uncommitted changes, Git will let you switch branches at anytime. This is called
 "checking out" a branch.
 
+## Example of Branches in Use
+
+A great way to see how branches work is to visualize it.
+
+![branch example 1](img/branch-example-1.png)
+
+In this example, I have a repo that contains the file `my-feature-1.cpp`, which I added in a single commit `23ed8f` (tip: you can refer to commits by the first 5 characters of the hash).
+This commit was added on the `master` branch.
+
+Now suppose I want to add a new file, but I want to preserve a working copy of the application.
+
+Using the command `git checkout -b feature-2`, I can create a new branch named `feature-2` from the current commit.
+
+On this new branch, I can add the `my-feature-2.cpp` file, and commit it to the `feature-2` branch.
+Using the `git log`, I can see both of my commits.
+
+![branch example 2](img/branch-example-2.png)
+
+And if I look at the files that are contained in this directory, both are there.
+
+![branch example 3](img/branch-example-3.png)
+
+Git maintains a reference to the currently checked-out commit. At any time, we can change which commit we want to use, and get a different version of the
+repository, all without losing any changes.
+
+Using the `git checkout master` command, we can go back to the `master` branch. Because our commit that added the `my-feature-2.cpp` file happened
+on `feature-2` and not `master`, we won't see this file.
+
+![branch example 4](img/branch-example-4.png)
+
+And Git allows for simultaneous development on multiple branches, so you can even make commits on this branch.
+
+![branch example 5](img/branch-example-5.png)
+
+Now, if we look at the contents of each branch:
+
+![branch example 6](img/branch-example-6.png)
+
+Suppose that we are done working on the `feature-2` branch, and want to add it to our stable branch `master`.
+Using the following commands, we can add the commits from the `feature-2` branch into the `master` branch.
+
+```console
+git checkout master # where we want to merge into
+git merge feature-2 # copy commits from this branch into active branch
+```
+
+Now, our repo will look like this:
+
+![branch example 7](img/branch-example-7.png)
+
+All of the commits and files from either branch are contained in the `master` branch.
+
 ## Checking out a new branch
 
 To create a new branch from your current branch, run the following command:
 
-```
-  git checkout -b NEW_BRANCH_NAME_GOES_HERE
+```console
+git checkout -b NEW_BRANCH_NAME_GOES_HERE
 ```
 
 You can verify that you have created and switched to the new branch by running `git status`.
@@ -24,8 +76,8 @@ You can verify that you have created and switched to the new branch by running `
 
 To switch to an existing branch that's different from your current branch, run the following command:
 
-```
-  git checkout BRANCH_NAME_TO_SWITCH_TO_GOES_HERE
+```console
+git checkout BRANCH_NAME_TO_SWITCH_TO_GOES_HERE
 ```
 
 **NOTE** If you have uncommitted changes, those changes will be carried over into the branch you switch to.
@@ -34,8 +86,8 @@ To switch to an existing branch that's different from your current branch, run t
 
 After setting the remote URL, you can push your current branch (if you have write-access to the GitHub repository you're hoping to push to) to GitHub by running:
 
-```
-  git push -u origin BRANCH_NAME_GOES_HERE
+```console
+git push -u origin BRANCH_NAME_GOES_HERE
 ```
 
 You can verify if this command worked by navigating to your repository's webpage. You should see your branch listed in the branch list.
@@ -46,8 +98,8 @@ You can verify if this command worked by navigating to your repository's webpage
 
 In order to merge branches simply run the following command:
 
-```
-  git merge BRANCH_NAME_TO_MERGE_WITH_GOES_HERE
+```console
+git merge BRANCH_NAME_TO_MERGE_WITH_GOES_HERE
 ```
 
 This will merge the branch specified into the current branch.
