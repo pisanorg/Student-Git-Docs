@@ -74,6 +74,8 @@ GitHub gives students access to unlimited private repos at no cost.
 While you do not need these for assignments using GitHub Classroom, it's nice
 to have for personal projects or other assignments.
 
+**Edit:** [As of 1/7/2019, GitHub now offers unlimited free repos, but limited to up to 3 collaborators. You should still sign up for the educational discount if you plan to work in groups larger than 3.](https://blog.github.com/changelog/2019-01-08-pricing-changes/)
+
 **Unless you have permission, never post your homework solutions in a public repo.**
 
 1. First, navigate to [education.github.com/pack](https://education.github.com/pack).

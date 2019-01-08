@@ -8,13 +8,7 @@ Please refer back to this guide if you need help, or resources provided by this 
 - [Installing Git](installing-git.md)
 - [Making a GitHub Account](make-a-github-account.md)
 - [Getting started with Git](git-guide/README.md)
-
-TODO These topics are left to work on
-
-- Working on assignments
-- Working in groups
-- (if we have time) Testing and CI/CD
-- (if we have time) other topics?
+- [Submitting Assignments](submitting-assignments.md)
 
 ## Additional Resources
 
