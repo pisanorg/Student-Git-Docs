@@ -25,3 +25,16 @@ Commits always have these properties:
 - A commit hash, used for identification
 - A commit author
 - A commit timestamp
+
+# Useful Resources
+
+- [Official Git Documentation][git-scm-doc]
+- [GitHub Documentation][github-doc]
+- [GitHub Classroom Education Community][gh-class-doc]
+- And of course [Stack Overflow][stackoverflow]
+
+[git-scm-doc]: https://git-scm.com/doc
+[github-doc]: https://guides.github.com/
+[gh-class-doc]: https://education.github.community/
+[stackoverflow]: https://stackoverflow.com/questions/tagged/git
+
