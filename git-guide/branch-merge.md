@@ -1,5 +1,15 @@
 # Branching and Merging
 
+Branching is an action that is used in Git to maintain multiple versions of a codebase at the same time.
+A common way that it's used is to maintain a "stable" version of the codebase, typically in `master`,
+and work on new features in their own branches.
+This is nice to have, for example if you are working on functionality that may be breaking, you can
+maintain a backed-up copy of working code in case something goes wrong, but without the need to have
+commented-out code.
+
+As long as you don't have uncommitted changes, Git will let you switch branches at anytime. This is called
+"checking out" a branch.
+
 ## Checking out a new branch
 
 To create a new branch from your current branch, run the following command:

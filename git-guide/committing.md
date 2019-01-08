@@ -19,11 +19,20 @@ First line is a brief description, less than 50 chars
 (optional) Extended description after a new line. 
 This can be longer than 50 characters.
 ```
+Lines that start with `#` are ignored.
 
 When you are done writing your commit message, simply save your changes and exit the editor.
 In Nano, you do this by pressing `CTRL + X`.
 
 If you wish to cancel a commit, you can exit the editor without saving any message, or by saving a blank message.
+
+It's important to follow this structure for commit messages, since that's what is assumed by tools and websites, including GitHub.
+
+![commit message example](img/commit-message-example.png)
+
+And the same commit, as seen in GitHub:
+
+![commit message example in github](img/github-commit-message-preview.png)
 
 ### Commit Message Editors
 
