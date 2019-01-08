@@ -77,3 +77,10 @@ To pull any changes from the GitHub branch to your local repository simply run `
 **NOTE** You might run into merge conflicts if you committed changes to your local repository before it's fully synced with the GitHub repository. We will not be covering how to deal with merge conflicts in this tutorial. 
 
 [Learn more about how to resolve merge conflicts here](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
+
+### Git Pull Vs Git Fetch
+
+[This is explained well by this StackOverflow post.](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
+
+`git pull` executes two actions, it first downloads the latest information from the server, then applies these changes to your local repository.
+If you only want to download the latest information from the server without applying changes, then you can use `git fetch`.
