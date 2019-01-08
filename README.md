@@ -16,6 +16,7 @@ Please refer back to this guide if you need help, or resources provided by this 
 - [GitHub Documentation][github-doc]
 - [GitHub Classroom Education Community][gh-class-doc]
 - And of course [Stack Overflow][stackoverflow]
+- [How To Use Git: A Reference Guide](https://dev.to/digitalocean/how-to-use-git-a-reference-guide-6b6)
 
 ## Contributing
 

@@ -14,7 +14,7 @@ This assumes that you have Git installed already.
 5. [Syncing files to GitHub](pushing.md)
 6. [Branches & Merging](branch-merge.md)
 
-- [Git Vocabulary and Commands Reference](reference.md)
+[Git Vocabulary and Commands Reference](reference.md)
 
 ### Additional Topics
 
@@ -26,14 +26,3 @@ TODO work on these if we have time
 - GitHub Issues
 - GitHub Pull Requests
 - forking, how to contribute to these docs
-
-## Additional Resources
-
-Please be sure to refer to these for additional help.
-If there is a topic that you think should be covered here, please feel free to submit a new
-Issue or Pull Request.
-
- - [Official Git Documentation](https://git-scm.com/doc)
- - ["Git Gud" Workshop Presentation by UWB-ACM](https://uwb-acm.github.io/Git-Gud-Workshop/)
- - [Atlassian Intro to Git Guide](https://www.atlassian.com/git/tutorials/what-is-version-control)
-    Note that this guide assumes that you are using BitBucket, and not GitHub.
