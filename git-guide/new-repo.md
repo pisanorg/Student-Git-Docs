@@ -82,17 +82,59 @@ any indicators for your password, so just hit Enter/Return when you are done.
 
 Then, open the folder `C:\Git` under File Explorer, and your files should be there.
 
-## Creating your own repos - TODO
+## Creating your own repos
 
 If you aren't using GitHub classroom, then you'll want to follow these steps.
 
 ### Step 0. Create your `Git` folder.
 
-TODO create a folder under ~/Git or C:\Git
+We recommend creating a folder in an easily-accessible location in your file system for storing your Git repos.
+On Windows `C:\Git` and on Linux or Mac `~/Git` are good options.
 
-TODO create repo on github with https://github.com/new
+Navigate to this directory in your command line with `cd C:\Git` or `cd ~/Git`.
 
-TODO use the instructions from github
+### Step 1. Create a repo on GitHub
+
+Navigate to [github.com/new](https://github.com/new), or use the green _"New Repository"_ button on your GitHub home page.
+
+![create repo](img/create-repo.png)
+
+Then, fill out some the repo settings.
+
+**Note** If you already have files, it's a lot easier if you do not create a README, add a .gitignore or a license. You can always do these later.
+
+![create repo](img/create-repo2.png)
+
+## Step 2. Setup an existing repo, or create a new one
+
+Once your repository is created, you should see this screen:
+
+![create repo](img/create-repo3.png)
+
+### If you already have project files
+
+Navigate to the directory that contains your project.
+Initialize a new git repository in that directory with `git init`.
+We'll then want to configure our repository to know where it should sync code.
+Copy the `HTTPS` url from the page on GitHub, and paste it as an argument to the `git remote add origin` command.
+
+Then, we'll want to commit all of the files in this directory, and push them to GitHub.
+
+```console
+git init
+git remote add origin https://github.com/xxxxxxxxx/xxxxxx.git
+git add .
+git commit -m "initial commit"
+git push -u origin master
+```
+
+If all these commands ran without errors, if you refresh your repo page it should contain the project files.
+
+### If you don't have any project files
+
+If we do not yet have any project files, we can use the instructions from GitHub to populate our repo with a placeholder
+README.
+This creates a new file, commits it, sets the remove (server) url, and pushes the new master branch to it.
 
 ```
 echo "# ideal-chainsaw" >> README.md
@@ -102,7 +144,6 @@ git commit -m "first commit"
 git remote add origin https://github.com/ThisIsAnotherDemoAccount123/ideal-chainsaw.git
 git push -u origin master
 ```
-
 
 ## Setting the remote URL
 
