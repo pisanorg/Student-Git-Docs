@@ -72,3 +72,8 @@ any indicators for your password, so just hit Enter/Return when you are done.
 
 Then, open the folder `C:\Git` under File Explorer, and your files should be there.
 
+
+## Step 2. Work on Assignment
+
+- Modify files in attempt to complete assignment
+- [See topics 3 through 5 in this guide](git-guide/README.md)
