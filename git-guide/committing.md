@@ -1,6 +1,6 @@
 # Committing Changes
 
-In Git, Committing is the action of storing changes in the staging area, and adding them to the repo.
+In Git, committing is the action of storing changes in the staging area, and adding them to the repo.
 
 ## How to Commit
 
