@@ -7,7 +7,8 @@ Please refer back to this guide if you need help, or resources provided by this 
 
 - [Installing Git](installing-git.md)
 - [Making a GitHub Account](make-a-github-account.md)
-- [Getting started with Git](git-guide/README.md)
+- [Getting Started With Git](git-guide/README.md)
+- [Starting Assignments](starting-assignments.md)
 - [Submitting Assignments](submitting-assignments.md)
 
 ## Additional Resources
