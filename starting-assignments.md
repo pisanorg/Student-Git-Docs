@@ -1,8 +1,8 @@
-## Creating Repos for GitHub Classroom
+# Starting a New Assignment from GitHub Classroom
 
 When you will be creating repos for GitHub classroom, you'll want to follow these steps.
 
-### Step 0. Accept the Assignment
+## Step 0. Accept the Assignment
 
 Your instructor will provide you with a link to the assignment. It should look
 something like this: `https://classroom.github.com/a/xxxxxxx`. Open that link
@@ -19,7 +19,7 @@ When this is done, you'll see this confirmation page.
 
 ![clone confirmation](img/authorize-github-classroom-5.PNG)
 
-### Step 1. Clone the repository
+## Step 1. Clone the repository
 
 Open the repository link that was created for you by GitHub classroom.
 This will be your private repository for working on the assignment.
@@ -38,7 +38,7 @@ SSH is only used if you have set up certificates, which is a topic that we will 
 
 Copy the link provided in this popup.
 
-#### Linux and Mac Instructions
+### Linux and Mac Instructions
 
 Open your terminal application.
 
@@ -58,7 +58,7 @@ any indicators for your password, so just hit Enter/Return when you are done.
 Then, using the command `ls`, you should see a new directory for your assignment in this directory.
 `cd directoryName` to it, and you should see your files there.
 
-#### Windows Instructions
+### Windows Instructions
 
 Create a new folder with the name _"Git"_, under your `C:\` drive.
 
