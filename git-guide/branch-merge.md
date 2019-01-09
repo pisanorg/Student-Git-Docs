@@ -1,7 +1,7 @@
 # Branching and Merging
 
 Branching is an action that is used in Git to maintain multiple versions of a codebase at the same time.
-A common way that it's used is to maintain a "stable" version of the codebase, typically in `master`,
+A common way that it's used is to maintain a "stable" version of the codebase (typically in `master`),
 and work on new features in their own branches.
 
 This is nice to have, for example if you are working on functionality that may be breaking, you can
