@@ -99,7 +99,7 @@ Navigate to [github.com/new](https://github.com/new), or use the green _"New Rep
 
 ![create repo](img/create-repo.png)
 
-Then, fill out some the repo settings.
+Then, fill out some of the repo settings.
 
 **Note** If you already have files, it's a lot easier if you do not create a README, add a .gitignore or a license. You can always do these later.
 
@@ -134,7 +134,7 @@ If all these commands ran without errors, if you refresh your repo page it shoul
 
 If we do not yet have any project files, we can use the instructions from GitHub to populate our repo with a placeholder
 README.
-This creates a new file, commits it, sets the remove (server) url, and pushes the new master branch to it.
+This creates a new file, commits it, sets the remote (server) url, and pushes the new master branch to it.
 
 ```
 echo "# ideal-chainsaw" >> README.md
@@ -147,7 +147,7 @@ git push -u origin master
 
 ## Setting the remote URL
 
-To set the remote URL, first copy the URL link of the GitHub repository you're tyring to sync to. This can be done by navigating to your repository page on GitHub. Once you're there, click the `Clone or download` button found under the repository details. Example:
+To set the remote URL, first copy the URL link of the GitHub repository you're trying to sync to. This can be done by navigating to your repository page on GitHub. Once you're there, click the `Clone or download` button found under the repository details. Example:
 
 ![Clone or Download Button](img/pushing-clone-download-button.PNG)
 

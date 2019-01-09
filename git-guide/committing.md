@@ -68,7 +68,7 @@ isn't a good message.
 
 To view previous commit messages, you can use the command `git log`. (Press `q` once to exit)
 
-This will all of the previous commits that are in the current branch, in reverse chronological order.
+This will list all of the previous commits that are in the current branch, in reverse chronological order.
 For example:
 ```
 $ git log
