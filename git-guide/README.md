@@ -15,14 +15,3 @@ This assumes that you have Git installed already.
 6. [Branches & Merging](branch-merge.md)
 
 [Git Vocabulary and Commands Reference](reference.md)
-
-### Additional Topics
-
-These topics are nice to know, but aren't necessary.
-
-TODO work on these if we have time
-
-- .gitignore
-- GitHub Issues
-- GitHub Pull Requests
-- forking, how to contribute to these docs
