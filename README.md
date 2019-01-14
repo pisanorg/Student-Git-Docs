@@ -10,6 +10,7 @@ Please refer back to this guide if you need help, or resources provided by this 
 - [Getting Started With Git](git-guide/README.md)
 - [Starting Assignments](starting-assignments.md)
 - [Submitting Assignments](submitting-assignments.md)
+- [Frequently Asked Questions (FAQ)](FAQ.md)
 
 ## Additional Resources
 
