@@ -19,4 +19,4 @@ is a great way to help!
 
 If you are unsure, please feel free to ask in the `#git` help channel.
 
-This is an edit that I opened first
+Editing the file at the same time is a bad idea!
