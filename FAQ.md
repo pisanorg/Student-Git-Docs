@@ -1,6 +1,7 @@
 # Frequently Asked Questions (FAQ)
 
 - [Repository Not Found While Cloning with Valid URLs](#repo-not-found)
+- [CLion: "error while loading shared libraries: ?: cannot open shared object file: No such file or directory"](#msys)
 
 ## Repository Not Found While Cloning with Valid URLs<a name="repo-not-found" />
 
@@ -20,3 +21,17 @@ your username in the URL:
 ```
 $ git clone https://<USERNAME>@github.com/<CLASSROOM>/<ASSIGNMENT>-<USERNAME>.git
 ```
+
+## Error while loading shared libraries ... <a name="msys">
+
+This issue can occur when performing a Git Push in clion.
+
+You may see an error similar to this:
+
+```
+C:/msys64/usr/lib/git-core/git-remote-https.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory
+```
+
+[A solution can be found here: https://stackoverflow.com/questions/35191375/msys2-git-on-windows-errors-looking-for-shared-object-file/35236385#35236385](https://stackoverflow.com/questions/35191375/msys2-git-on-windows-errors-looking-for-shared-object-file/35236385#35236385)
+
+This is fixed by changing the path to the Git executable in CLion.
