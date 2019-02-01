@@ -18,5 +18,3 @@ high standard of quality. Proofreading open Pull Requests
 is a great way to help!
 
 If you are unsure, please feel free to ask in the `#git` help channel.
-
-Editing the file at the same time is a bad idea!
